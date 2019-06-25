@@ -1,0 +1,31 @@
+{
+  "name": "mikes_site",
+  "version": "1.0.0",
+  "description": "Michaek F. Mulderink Personal Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "nodemon server/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mulderink1/mikes_personal_site.git"
+  },
+  "author": "Michael F. Mulderink",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mulderink1/mikes_personal_site/issues"
+  },
+  "homepage": "https://github.com/Mulderink1/mikes_personal_site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "path": "^0.12.7",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0"
+  }
+}
