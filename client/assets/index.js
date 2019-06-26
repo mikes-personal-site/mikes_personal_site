@@ -3,4 +3,4 @@ function main() {
   h2.setAttribute("id", "h3Root");
   h2.innerHTML = "This text was created dynamically with JavaScript.";
   document.getElementById("Root").appendChild(h2);
-};
+}
