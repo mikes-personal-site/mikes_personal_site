@@ -12,7 +12,10 @@ app.get(
   }
 );
 
-app.listen(PORT, () => {
-  const newLocal: string = `listing on http://localhost:${PORT}/`;
-  console.log(newLocal);
-});
+app.listen(
+  PORT,
+  (): void => {
+    const newLocal: string = `listing on http://localhost:${PORT}/`;
+    console.log(newLocal);
+  }
+);
