@@ -1,6 +1,6 @@
 {
   "name": "mikes_site",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Michaek F. Mulderink Personal Site",
   "main": "index.js",
   "scripts": {
