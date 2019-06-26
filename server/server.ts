@@ -3,12 +3,12 @@ import * as path from "path";
 const app: express.Application = express();
 const PORT: number = 3000;
 
-app.use("/", express.static(path.resolve(__dirname, "../client/assets")));
+app.use("/", express.static(path.resolve(__dirname, "../client")));
 
 app.get(
   "/",
   (req: express.Request, res: express.Response): void => {
-    res.sendFile(path.resolve(__dirname, "../client/index.html"));
+    res.sendFile(path.resolve(__dirname, "../client/views/index.html"));
   }
 );
 
