@@ -1,6 +1,5 @@
 import * as express from "express";
 import * as path from "path";
-
 const app: express.Application = express();
 const PORT: number = 3000;
 
