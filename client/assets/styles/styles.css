@@ -3,8 +3,10 @@
   color: darkblue;
 }
 .links {
-  font-size: 100%;
   text-align: center;
+}
+.links li {
+  display: inline-block;
 }
 .mikesNameAndRole {
   font-size: 200%;
