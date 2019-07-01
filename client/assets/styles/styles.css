@@ -2,6 +2,11 @@
   text-align: center;
   color: darkblue;
 }
+#projectButton {
+  color: red;
+  margin-left: 40%;
+  width: 20%;
+}
 .links {
   text-align: center;
 }
