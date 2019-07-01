@@ -9,19 +9,19 @@
   display: inline-block;
 }
 .mikesNameAndRole {
-  font-size: 200%;
+  font-size: 150%;
   text-align: center;
 }
 .mikesPic {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 30%;
 }
 .aboutMike {
   font-size: 120%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
 }
