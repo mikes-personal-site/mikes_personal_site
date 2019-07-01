@@ -12,6 +12,13 @@ app.get(
   }
 );
 
+app.get(
+  "/projectButton",
+  (req: express.Request, res: express.Response): void => {
+    res.send("This is where mike is going to put his personal projects");
+  }
+);
+
 app.listen(
   PORT,
   (): void => {
