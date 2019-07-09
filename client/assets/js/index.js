@@ -9,18 +9,5 @@ function main(){
 
 // I Think the line 18 is the problem, .json() is not working.
 function getProjects() {
-  fetch("http://localhost:3000/projectButton", {
-      headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-      }
-    })
-    .then((response) => response.toString())
-    .then((response) => {
-      console.log(response);
-    })
-    .catch(err => {
-      // Do something for an error here
-      console.log("Error Reading data " + err);
-    });
+    window.location = 'http://localhost:3000/projectButton'
 }
