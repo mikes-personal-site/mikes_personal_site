@@ -15,7 +15,7 @@ app.get(
 app.get(
   "/projectButton",
   (req: express.Request, res: express.Response): void => {
-    res.send("This is where mike is going to put his personal projects");
+    res.sendFile(path.resolve(__dirname, "../client/views/projects.html"));
   }
 );
 
