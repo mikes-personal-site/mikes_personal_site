@@ -9,5 +9,5 @@ function main(){
 
 // I Think the line 18 is the problem, .json() is not working.
 function getProjects() {
-    window.location = 'http://localhost:3000/projectButton'
+  window.location = 'http://michaelmulderink.us-east-2.elasticbeanstalk.com/projectButton'
 }
