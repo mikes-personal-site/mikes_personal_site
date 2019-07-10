@@ -1,8 +1,7 @@
 import * as express from "express";
 import * as path from "path";
 const app: express.Application = express();
-const PORT: number = 3000;
-
+const PORT = process.env.PORT || 3000;
 app.use("/", express.static(path.resolve(__dirname, "../client")));
 
 app.get(
