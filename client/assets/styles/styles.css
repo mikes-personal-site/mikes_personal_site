@@ -1,36 +1,44 @@
 body {
   background-color: #ecf0f1;
 }
-.links {
-  padding-top: 50px;
-  text-align: right;
+ul {
+  list-style-type: none;
+  padding: 30px;
+  overflow: hidden;
 }
-.links li {
-  display: inline-block;
+li {
+  float: left;
 }
-.github {
-  height: 35px;
+li a {
+  display: block;
+  text-decoration: none;
+}
+.projectLink a {
+  color: #3498db;
+  font-size: 40px;
+  font-weight: 0;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.navRight {
   padding-left: 5px;
   padding-right: 5px;
+  float: right;
 }
-.linkedin {
-  height: 35px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-.angellist {
-  height: 35px;
-  padding-left: 5px;
-  padding-right: 50px;
+li a img {
+  height: 40px;
 }
 .mikesNameAndRole {
-  padding-bottom: 60px;
-  font-size: 40px;
+  color: #2c3e50;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 55px;
   font-weight: 0;
   text-align: center;
 }
 .mikesNameAndRole p {
-  line-height: 0%;
+  line-height: 150%;
   margin: 20px;
 }
 .mikesPic {
@@ -41,6 +49,7 @@ body {
 }
 .aboutMike {
   padding-top: 40px;
+  padding-bottom: 50px;
   font-size: 20px;
   font-weight: 100;
   line-height: 150%;
@@ -50,17 +59,4 @@ body {
   margin-right: auto;
   width: 600px;
   font-family: "proxima-nova", sans-serif;
-}
-.projectLink {
-  color: #3498db;
-  font-size: 30px;
-  font-weight: 0;
-  text-decoration: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 50px;
 }
