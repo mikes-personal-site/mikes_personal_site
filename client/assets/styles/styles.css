@@ -11,39 +11,64 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-ul {
+.links ul {
   list-style-type: none;
   padding: 0px;
   overflow: hidden;
 }
-li {
-  float: left;
-  padding-left: 15px;
-  padding-right: 15px;
+.links li {
+  float: right;
+  padding-left: 30px;
 }
-li a {
-  color: #3498db;
-  font-size: 20px;
+.links li a {
   font-weight: 300;
   display: block;
   text-align: center;
   font-family: "proxima-nova", sans-serif;
   text-decoration: none;
 }
-.navRight {
-  float: right;
-}
-li a img {
+.links img {
   height: 22px;
 }
-.mikesNameAndRole {
-  font-size: 34px;
-  text-align: center;
+.navBar ul {
+  list-style-type: none;
+  padding: 0px;
+  overflow: hidden;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
-.mikesNameAndRole p {
-  line-height: 150%;
-  margin-top: 40px;
-  margin-bottom: 20px;
+ul.name {
+  width: 50%;
+  float: left;
+  padding: 0px;
+}
+.name li {
+  font-size: 32px;
+  float: left;
+  padding: 0px;
+  padding-left: 0px;
+}
+.about li {
+  float: right;
+  padding-left: 30px;
+  padding-right: 0px;
+}
+.about li a {
+  font-family: italic;
+  font-size: 20px;
+  font-weight: 0;
+}
+ul.about {
+  width: 50%;
+  float: right;
+}
+.navBar a {
+  font-weight: 300;
+  color: #2c3e50;
+  line-height: 0%;
+  text-align: center;
+  font-family: "proxima-nova", sans-serif;
+  text-decoration: none;
 }
 .mikesPic {
   width: 600px;
