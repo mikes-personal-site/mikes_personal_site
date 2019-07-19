@@ -1,0 +1,75 @@
+.yo {
+  color: blue;
+}
+body {
+  color: #2c3e50;
+  background-color: #ecf0f1;
+  text-align: center;
+  font-weight: 0;
+  display: block;
+  width: 600px;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.links ul {
+  list-style-type: none;
+  padding: 0px;
+  overflow: hidden;
+}
+.links li {
+  float: right;
+  padding-left: 30px;
+}
+.links li a {
+  font-weight: 300;
+  display: block;
+  text-align: center;
+  font-family: "proxima-nova", sans-serif;
+  text-decoration: none;
+}
+.links img {
+  height: 22px;
+}
+.navBar ul {
+  list-style-type: none;
+  padding: 0px;
+  overflow: hidden;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+ul.name {
+  width: 50%;
+  float: left;
+  padding: 0px;
+}
+.name li {
+  font-size: 32px;
+  float: left;
+  padding: 0px;
+  padding-left: 0px;
+}
+.about li {
+  float: right;
+  padding-left: 30px;
+  padding-right: 0px;
+}
+.about li a {
+  font-family: italic;
+  font-size: 20px;
+  font-weight: 0;
+}
+ul.about {
+  width: 50%;
+  float: right;
+}
+.navBar a {
+  font-weight: 300;
+  color: #2c3e50;
+  line-height: 0%;
+  text-align: center;
+  font-family: "proxima-nova", sans-serif;
+  text-decoration: none;
+}
