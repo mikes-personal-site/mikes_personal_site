@@ -1,6 +1,3 @@
-.yo {
-  color: blue;
-}
 body {
   color: #2c3e50;
   background-color: #ecf0f1;
@@ -50,6 +47,9 @@ ul.name {
   float: left;
   padding: 0px;
   padding-left: 0px;
+}
+.name li a {
+  font-weight: 500;
 }
 .about li {
   float: right;
