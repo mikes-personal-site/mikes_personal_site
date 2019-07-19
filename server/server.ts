@@ -12,9 +12,32 @@ app.get(
 );
 
 app.get(
-  "/projectButton",
+  "/projects",
   (req: express.Request, res: express.Response): void => {
     res.sendFile(path.resolve(__dirname, "../client/views/projects.html"));
+  }
+);
+app.get(
+  "/stylesProjects.css",
+  (req: express.Request, res: express.Response): void => {
+    res.sendFile(
+      path.resolve(__dirname, "../client/assets/styles/stylesProjects.css")
+    );
+  }
+);
+
+app.get(
+  "/contact",
+  (req: express.Request, res: express.Response): void => {
+    res.sendFile(path.resolve(__dirname, "../client/views/contact.html"));
+  }
+);
+app.get(
+  "/stylesContact.css",
+  (req: express.Request, res: express.Response): void => {
+    res.sendFile(
+      path.resolve(__dirname, "../client/assets/styles/stylesContact.css")
+    );
   }
 );
 
