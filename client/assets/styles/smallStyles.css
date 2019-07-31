@@ -1,0 +1,82 @@
+body {
+  color: #2c3e50;
+  background-color: #ecf0f1;
+  text-align: center;
+  font-weight: 0;
+  display: block;
+  width: 300px;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bar ul {
+  height: 25px;
+  list-style-type: none;
+  padding: 0px;
+  overflow: hidden;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+.nav {
+  width: 50%;
+  float: left;
+}
+.nav li {
+  float: left;
+  padding: 0px;
+}
+.nav li a {
+  font-weight: 300;
+  font-size: 16px;
+  color: #2c3e50;
+  line-height: 100%;
+  text-align: center;
+  font-family: "proxima-nova", sans-serif;
+  text-decoration: none;
+}
+.links {
+  width: 50%;
+  float: right;
+}
+.links li {
+  float: right;
+  padding-left: 5px;
+}
+.links li a {
+  font-weight: 300;
+  display: block;
+  text-align: center;
+  font-family: "proxima-nova", sans-serif;
+  text-decoration: none;
+}
+.links img {
+  height: 14px;
+  padding-top: 4px;
+}
+.mikesPic {
+  width: 300px;
+  border-radius: 3px;
+}
+.aboutMike {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  font-family: "proxima-nova", sans-serif;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+.aboutMike ul {
+  margin: 0%;
+}
+.aboutMike li {
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 100%;
+  font-family: "proxima-nova", sans-serif;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
