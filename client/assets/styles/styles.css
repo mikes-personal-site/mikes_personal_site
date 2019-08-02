@@ -8,15 +8,15 @@ body {
   padding: 0px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .bar ul {
   height: 35px;
   list-style-type: none;
   padding: 0px;
   overflow: hidden;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 .nav {
@@ -27,7 +27,7 @@ body {
   float: left;
   padding: 0px;
 }
-.nav li a {
+.nav li {
   font-weight: 300;
   font-size: 40px;
   color: #2c3e50;
@@ -60,13 +60,15 @@ body {
   border-radius: 4px;
 }
 .aboutMike {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   font-family: "proxima-nova", sans-serif;
   text-align: left;
+}
+.aboutMike p {
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .aboutMike ul {
   margin: 0%;
@@ -77,6 +79,9 @@ body {
   line-height: 100%;
   font-family: "proxima-nova", sans-serif;
   text-align: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 12px;
+}
+.aboutMike a {
+  text-decoration: none;
+  color: #3498db;
 }
