@@ -93,7 +93,7 @@ body {
   cursor: pointer;
   overflow: hidden;
   font-family: "proxima-nova", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   padding: 0px;
   color: #3498db;
 }
@@ -122,4 +122,17 @@ button:focus {
   border-radius: 4px;
   color: #2c3e50;
   font-size: 20px;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 82%;
+}
+.close:hover,
+.close:focus {
+  color: #3498db;
+  text-decoration: none;
+  cursor: pointer;
 }
