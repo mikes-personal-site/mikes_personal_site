@@ -55,37 +55,6 @@ body {
   height: 24px;
   padding-top: 8px;
 }
-.mikesPic {
-  width: 600px;
-  border-radius: 4px;
-}
-.aboutMike {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 150%;
-  font-family: "proxima-nova", sans-serif;
-  text-align: left;
-}
-.aboutMike p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.aboutMike ul {
-  padding-top: 20px;
-  margin: 0%;
-}
-.aboutMike li {
-  font-size: 15px;
-  font-weight: 200;
-  line-height: 100%;
-  font-family: "proxima-nova", sans-serif;
-  text-align: left;
-  padding: 12px;
-}
-.aboutMike a {
-  text-decoration: none;
-  color: #3498db;
-}
 #myBtn {
   background-color: Transparent;
   background-repeat: no-repeat;
@@ -144,4 +113,55 @@ button:focus {
   color: #3498db;
   text-decoration: none;
   cursor: pointer;
+}
+.clipboard {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  font-family: "proxima-nova", sans-serif;
+}
+.email {
+  font-size: 20px;
+  height: 20px;
+  margin: 0px;
+  color: #2c3e50;
+}
+.email:hover,
+.email:focus {
+  color: #3498db;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mikesPic {
+  width: 600px;
+  border-radius: 4px;
+}
+.aboutMike {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  font-family: "proxima-nova", sans-serif;
+  text-align: left;
+}
+.aboutMike p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.aboutMike ul {
+  padding-top: 20px;
+  margin: 0%;
+}
+.aboutMike li {
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 100%;
+  font-family: "proxima-nova", sans-serif;
+  text-align: left;
+  padding: 12px;
+}
+.aboutMike a {
+  text-decoration: none;
+  color: #3498db;
 }
