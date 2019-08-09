@@ -85,6 +85,7 @@ body {
   cursor: pointer;
   overflow: hidden;
   padding: 0px;
+  height: 22px;
 }
 #myBtn2nd {
   background-color: Transparent;
