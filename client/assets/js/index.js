@@ -8,10 +8,6 @@ if (window.innerWidth > 600) {
 
   btn.onclick = function () {
     modal.style.display = "block";
-  }
-
-  span.onclick = function () {
-    modal.style.display = "none";
   };
 
   window.onclick = function (event) {
