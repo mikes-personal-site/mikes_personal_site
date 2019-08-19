@@ -101,30 +101,6 @@ button:focus {
   color: #2c3e50;
   font-size: 22px;
 }
-.modal-content a {
-  text-decoration: none;
-  color: #2c3e50;
-  font-size: 22px;
-}
-.modal-content a:hover,
-.modal-content a:focus {
-  color: #3498db;
-  text-decoration: none;
-  cursor: pointer;
-}
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 25px;
-  font-weight: bold;
-  line-height: 82%;
-}
-.close:hover,
-.close:focus {
-  color: #3498db;
-  text-decoration: none;
-  cursor: pointer;
-}
 .clipboard {
   background-color: Transparent;
   background-repeat: no-repeat;
@@ -134,13 +110,27 @@ button:focus {
   font-family: "proxima-nova", sans-serif;
 }
 .email {
-  font-size: 20px;
-  height: 22px;
+  font-size: 22px;
+  height: 24px;
   margin: 0px;
   color: #2c3e50;
+  font-weight: 400;
 }
 .email:hover,
 .email:focus {
+  color: #3498db;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-content a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-size: 22px;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+}
+.modal-content a:hover,
+.modal-content a:focus {
   color: #3498db;
   text-decoration: none;
   cursor: pointer;
