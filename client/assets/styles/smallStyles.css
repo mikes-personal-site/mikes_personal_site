@@ -100,6 +100,17 @@ button:focus {
   color: #2c3e50;
   font-size: 20px;
 }
+.modal-content a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-size: 20px;
+}
+.modal-content a:hover,
+.modal-content a:focus {
+  color: #3498db;
+  text-decoration: none;
+  cursor: pointer;
+}
 .close {
   color: #aaaaaa;
   float: right;
