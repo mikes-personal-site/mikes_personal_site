@@ -55,13 +55,7 @@ body {
   padding-top: 4px;
 }
 #myBtn {
-  background-color: Transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  padding: 0px;
-  height: 22px;
+  display: none;
 }
 #myBtn2nd {
   background-color: Transparent;
